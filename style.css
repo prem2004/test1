@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#d1{
+    background: brown;
+}
+
+#d2{
+    background: green;
+}
+#d3{
+    background: orange;
+}
+
+#d4{
+    background: turquoise;
+}
+
+#d5{
+    background: blueviolet;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 200px 100px ;
+}
